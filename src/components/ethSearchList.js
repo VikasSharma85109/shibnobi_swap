@@ -1,0 +1,178 @@
+export const ethSearchList = [
+
+  {
+    name: "Shibnobi -SHINJA",
+    value: "Shibnobi -SHINJA",
+    chartValue: "UNISWAP:SHINJAWETH",
+    id: "shibnobi",
+    symbol: "shinja",
+    token0: "0x7dac25b1a665e1c70f25f1fc37d88c99274984ed",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x57ebc28df00ed93552af8fd81439700a95647b8d",
+  },
+  
+  {
+    name: "DeGEM - DeGEM",
+    value: "DeGEM - DeGEM",
+    chartValue: "UNISWAP:DGMWETH",
+    id: "degemeth",
+    symbol: "dgm",
+    token0: "0x697a2349bd29749b6544f9803693e566b963510a",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x66e54bd45091e4c16a742d12639b9b664fc9afb7",
+  },
+
+  {
+    name: "Dripto - DRYP",
+    value: "Dripto - DRYP",
+    chartValue: "UNISWAP:DRYPWETH",
+    id: "dripto",
+    symbol: "dryp",
+    token0: "0xbe1fa1303e2979ab4d4e5df3d1c6e3656acab027",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x85c26aef6f5186ce61622897a0160dc2c6342d36",
+  },
+
+  {
+    name: " Proof of Memes-ETH2.0",
+    value: " Proof of Memes",
+    chartValue: "UNISWAP:ETH2.0WETH",
+    id: "proof-of-memes",
+    symbol: "eth2.0",
+    token0: "0x04a6b6de116fb8bf57e5ee8b05e0293ea3639fe8",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x835b94f20d5858a234f3bd1d36d1597fc09e12a6",
+  },
+
+  {
+    name: "Mission Helios-HELIOS",
+    value: "Mission Helios",
+    chartValue: "UNISWAP:HELIOSWETH",
+    id: "mission-helios",
+    symbol: "helios",
+    token0: "0xc6d1f1d5a46de07e73091f1c8793293b203f01a1",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x886fbb0f9af628b43508fb7d76d034dcfe6a6d6d",
+  },
+
+  {
+    name: "Kounotori-KTO",
+    value: "Kounotori-KTO",
+    chartValue: "UNISWAP:KTOWETH",
+    id: "kounotori",
+    symbol: "kto",
+    token0: "0x616ef40d55c0d2c506f4d6873bda8090b79bf8fc",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x20893b642b56fa81131a8fb1d6489e82de5a7449",
+  },
+
+  {
+    name: "Lucky Shinu - LUSHI",
+    value: "Lucky Shinu - LUSHI",
+    chartValue: "UNISWAP:LUSHIWETH",
+    id: "lucky-shinu",
+    symbol: "lushi",
+    token0: "0x626082f2c5ed30e228f9349a68ceb155c1c26e2d",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x80e918639fb28ebbefb0cb4d08c3b9af05aa8fcc",
+  },
+
+  {
+    name: " Piccolo Token - PINU",
+    chartValue: "UNISWAP:PINUWETH",
+    value: " Piccolo Token - PINU",
+    id: "piccolo-inu",
+    symbol: "pinu",
+    token0: "0x3a1311b8c404629e38f61d566cefefed083b9670",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x56cb109d29689b475c2e960954525d25b51a1810",
+  },
+
+
+  {
+    name: "Streamer Inu - STREAMERINU",
+    value: "Streamer Inu - STREAMERINU",
+    chartValue: "UNISWAP:STREAMERINUWETH",
+    id: "streamer-inu",
+    symbol: "streamerinu",
+    token0: "0x0e8d2eb7d6bdf28393c25a1966385ad32ff0259a",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x35d7a9f09cd1322832098b61f9bf4cc5dd18e808",
+  },
+
+  
+
+  {
+    name: "YetiCoin - YETIC",
+    value: "YetiCoin - YETIC",
+    chartValue: "UNISWAP:YETICWETH",
+    id: "yeticoin",
+    symbol: "yetic",
+    token0: "0xdf96bde075d59e9143b325c75af38e208c986e6f",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0xe4253a969c3977d031eab6906f4e6e7335edcd43",
+  },
+
+  {
+    name: "ThreeOhDAO -3OH",
+    value: "ThreeOhDAO -3OH",
+    chartValue: "",
+    id: "30H",
+    symbol: "30H",
+    token0: "0x2e922f84ec5bb9cedfbb1a99543b143aa43d94b6",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x84e5efdb7f668612f067b3dbf9ae2821758b292f",
+  },
+  {
+    name: "Grifters",
+    value: "Grifters-DELC",
+    chartValue: "",
+    id: "DELC",
+    symbol: "DELC",
+    token0: "0xe4a16444133831a0fc84bfdd6bd01d6dcf5e69ea",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x585c6f676f178f18bc8d46fadd20d929dafe6feb",
+  },
+  {
+    name: "KITTYDINGER",
+    value: "Shrodinger-KITTYDINGER",
+    chartValue: "",
+    id: "KITTYDINGER",
+    symbol: "KITTYDINGER",
+    token0: "0x2c33b28527a63cdf13c0b24ce4cf5bf9c9fb3bc6",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x0cecc726d097c756c62272f1180ebfff29cb57f9",
+  },
+
+  {
+    name: "Mivie Token",
+    value: "Mivie Token-MET",
+    chartValue: "",
+    id: "MET",
+    symbol: "MET",
+    token0: "0x66571b3f5c925fd27aaff741c7b3bbb3f5e923a6",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0xab429083fe81160a1ba0eddfb16bd7ec406a8c7c",
+  },
+
+  {
+    name: "The Path Of Light-YORI",
+    value: "The Path Of Light-YORI",
+    chartValue: "",
+    id: "the-path-of-light",
+    symbol: "YORI",
+    token0: "0x1ab052db3216835182926a6d516762b0f1634661",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x5e882b5e77be2a567c7c39df772e385e33faf718",
+  },
+  {
+    name: "Saitanobi-SAITANOBI",
+    value: "Saitanobi-SAITANOBI",
+    chartValue: "",
+    id: "saitanobi",
+    symbol: "YORI",
+    token0: "0x5e9f35e8163c44cd7e606bdd716abed32ad2f1c6",
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    pairAddress: "0x6868d342602d1828d8f91dcd0602972de387a99f",
+  },
+];

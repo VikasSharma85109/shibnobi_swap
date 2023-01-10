@@ -1,0 +1,275 @@
+.twitter-icon {
+    background: url('../assests/dark-theme/twitter_ico.svg') no-repeat;
+}
+
+.telegram-icon {
+    background: url('../assests/dark-theme/telegram_ico.svg') no-repeat;
+}
+
+.reddit-icon {
+    background: url('../assests/dark-theme/reddit_ico.svg') no-repeat;
+}
+
+.facebook-icon {
+    background: url('../assests/dark-theme/facebook_ico.svg') no-repeat;
+}
+
+.youtube-icon {
+    background: url('../assests/dark-theme/youtube_ico.svg') no-repeat;
+}
+
+.insta-icon {
+    background: url('../assests/dark-theme/instagram_ico.svg') no-repeat;
+}
+
+.twitch-icon {
+    background: url('../assests/dark-theme/twitch_ico.svg') no-repeat;
+}
+
+.discord-icon {
+    background: url('../assests/dark-theme/discord_ico.svg') no-repeat;
+}
+
+.cvc-icon {
+    background: url('../assests/dark-theme/CVC_logo.png') no-repeat;
+}
+
+.coinmarket-icon {
+    background: url('../assests/dark-theme/coinmarket.png') no-repeat;
+}
+
+.coin-gecko-icon {
+    background: url('../assests/dark-theme/coin-gecko.png') no-repeat;
+}
+
+.shinja-icon {
+    background: url('../assests/dark-theme/shinja_ico.svg') no-repeat;
+}
+
+.linkdeen-icon {
+    background: url('../assests/dark-theme/linkedin.png');
+}
+
+.light .twitter-icon {
+    background: url('../assests/white-theme/twitter_ico.svg') no-repeat;
+}
+
+.light .telegram-icon {
+    background: url('../assests/white-theme/telegram_ico.svg') no-repeat;
+}
+
+.light .reddit-icon {
+    background: url('../assests/white-theme/reddit_ico.svg') no-repeat;
+}
+
+.light .facebook-icon {
+    background: url('../assests/white-theme/facebook_ico.svg') no-repeat;
+}
+
+.light .youtube-icon {
+    background: url('../assests/white-theme/youtube_ico.svg') no-repeat;
+}
+
+.light .insta-icon {
+    background: url('../assests/white-theme/instagram_ico.svg') no-repeat;
+}
+
+.light .twitch-icon {
+    background: url('../assests/white-theme/twitch_ico.svg') no-repeat;
+}
+
+.light .discord-icon {
+    background: url('../assests/white-theme/discord_ico.svg') no-repeat;
+}
+
+.light .shinja-icon {
+    background: url('../assests/white-theme/shinja_ico.svg') no-repeat;
+}
+
+.light .cvc-icon {
+    background: url('../assests/white-theme/CVC_logo.png') no-repeat;
+}
+
+/* .light .coinmarket-icon {background: url('../assests/white-theme/coinmarket.png') no-repeat;} */
+.light .coin-gecko-icon {
+    background: url('../assests/white-theme/coin-gecko.png') no-repeat;
+}
+
+.light .linkdeen-icon {
+    background: url('../assests/dark-theme/linkedin.svg');
+}
+
+ul.footer-links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer-links li a:hover {
+    transform: translateY(-6px);
+}
+
+.shibnobi-white-theme .shinja-icon {
+    background: url('../assests/white-theme/shinja_ico.svg') no-repeat;
+}
+
+.footerLogo img {
+    width: 50%;
+}
+
+.footer-links li a {
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px;
+    display: inline-block;
+    cursor: pointer;
+    background-size: cover;
+    transform: translateY(0);
+    transition: 0.3s linear;
+}
+
+ .footer-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-links li {
+    padding-left: 16px;
+    line-height: 0;
+}
+
+.linkDevider::before {
+    float: left;
+    position: absolute;
+    right: 12px;
+    content: "";
+    width: 1px;
+    height: 24px;
+    background-color: #40444f;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.linkDevider {
+    padding-left: 12px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.charitywalletBox h3 {
+    font-size: 18px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footer ul li a {
+    color: #87898f;
+    text-decoration: none;
+}
+
+footer::marker {
+    display: none !important;
+    visibility: hidden;
+}
+
+.footer-links li {
+    padding-left: 0;
+    line-height: 0;
+    padding-right: 10px;
+}
+
+.footer-links {
+    justify-content: start;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer {
+    padding: 50px 0px;
+}
+
+.charitywalletBox a {
+    background: #f600ff;
+    border-radius: 8px;
+    display: block;
+    font-size: 16px;
+    border: 1px solid #f600ff;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff !important;
+    text-decoration: none;
+    width: 140px;
+    height: 46px;
+    text-align: center;
+    line-height: 43px;
+}
+
+.charitywalletBox a:hover {
+    background-color: transparent;
+    color: #f600ff !important;
+    transition: .5s;
+}
+
+.charitywalletBox p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer ul li a:hover {
+    color: #f600ff;
+}
+
+p.copyrighttext {
+    font-size: 14px;
+    border-top: 1px solid #555454;
+    padding: 11px 0px;
+}
+
+ul li h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footerbox.footerSocialMain {
+    margin-bottom: 20px;
+}
+
+.light .footer {
+    background-color: #edeef2;
+}
+
+.light ul li h4,
+.light .charitywalletBox,
+.light p.copyrighttext {
+    color: #000;
+}
+
+.footerLogo img.white {
+    display: none;
+}
+
+.light .footerLogo img.dark {
+    display: none;
+}
+
+.light .footerLogo img.white {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .footer-links {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    .copyrightCol {
+        padding-top: 15px;
+        text-align: left;
+    }
+}

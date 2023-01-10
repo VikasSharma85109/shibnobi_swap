@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="32" height="32" transform="translate(976 111)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_24hVolume_ico" data-name="24hVolume_ico" transform="translate(-976 -111)" opacity="0.5" clip-path="url(#clip-path)">
+    <path id="icons8-total_sales" d="M8.8,3.2a5.6,5.6,0,1,0,5.6,5.6A5.6,5.6,0,0,0,8.8,3.2ZM35.2,4.8,26.719,6.081,29.188,8.55l-4.9,4.9-2.575-2.412-6.522,6.684L12.813,15.35,5.284,22.725l2.241,2.284,5.263-5.159,2.425,2.425,6.6-6.756,2.547,2.387,7.094-7.094,2.469,2.469ZM9.438,5.6h.409V12H7.672V8.012L6.4,8.5V6.844ZM30.4,17.6V35.2h3.2V17.6ZM24,20.8V35.2h3.2V20.8ZM17.6,24V35.2h3.2V24Zm-6.4,3.2v8h3.2v-8ZM4.8,30.4v4.8H8V30.4Z" transform="translate(972.801 107.801)" fill="#b5b5b5"/>
+  </g>
+</svg>
