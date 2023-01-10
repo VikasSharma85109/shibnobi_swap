@@ -4,18 +4,18 @@ import { constants, bsc, bscTestnet } from "../../config";
 const pairAbi = constants.pairAbi;
 const erc20ABI = constants.erc20Abi;
 const factoryAbi = constants.factoryAbi;
-const factoryAddress = bsc.factoryAddress; //change to mainnet
+const factoryAddress = bscTestnet.factoryAddress; //change to mainnet
 
-const shibFactoryAddrss = bsc.shibnobiFactory;
+const shibFactoryAddrss = bscTestnet.shibnobiFactory;
 const shibFactoryAbi = constants.shibFactoryAbi;
-const shibRouterAddress = bsc.shibnobiRouter;
+const shibRouterAddress = bscTestnet.shibnobiRouter;
 const shibRouterAbi = constants.shibRouterAbi;
 
 // const shibFactory = new ethers.Contract(shibFactoryAddrss, shibFactoryAbi, signer);
 // const shibRouter = new ethers.Contract(shibRouterAddress, shibRouterAbi, signer);
 
 // const factory = new ethers.Contract(factoryAddress, factoryAbi, signer);
-const zeroAddr = bsc.zeroAddress; //Change to mainnet
+const zeroAddr = bscTestnet.zeroAddress; //Change to mainnet
 
 export const fetchPairAddress = async (tokenA, tokenB, _provider) => {
   const provider = new ethers.providers.Web3Provider(_provider);

@@ -3,9 +3,9 @@ import { all } from "express/lib/application";
 import { bsc, constants, bscTestnet } from "../../config";
 import { connectorsForWallets } from "@rainbow-me/rainbowkit";
 
-const factoryAddress = bsc.factoryAddress; // change to mainnet
-const routerAddress = bsc.pancakeRouterAddress; // change to mainnet
-const shibRouter = bsc.shibnobiRouter;
+const factoryAddress = bscTestnet.factoryAddress; // change to mainnet
+const routerAddress = bscTestnet.pancakeRouterAddress; // change to mainnet
+const shibRouter = bscTestnet.shibnobiRouter;
 
 const erc20Abi = constants.erc20Abi;
 const pairAbi = constants.pairAbi;

@@ -8,20 +8,20 @@ const provider = new ethers.providers.Web3Provider(window.ethereum);
 
 const web3 = new Web3(provider);
 const ERC20 = constants.erc20Abi;
-const factoryAddress = bsc.factoryAddress; //change to mainnet
+const factoryAddress = bscTestnet.factoryAddress; //change to mainnet
 const factoryAbi = constants.factoryAbi;
 
-const routerAddress = bsc.pancakeRouterAddress; //change to mainnet
+const routerAddress = bscTestnet.pancakeRouterAddress; //change to mainnet
 const routerAbi = constants.routerAbi;
 
-const shibFactoryAddrss = bsc.shibnobiFactory;
+const shibFactoryAddrss = bscTestnet.shibnobiFactory;
 const shibFactoryAbi = constants.shibFactoryAbi;
 
-const shibRouterAddress = bsc.shibnobiRouter;
+const shibRouterAddress = bscTestnet.shibnobiRouter;
 const shibRouterAbi = constants.shibRouterAbi;
 
-const zeroAddr = bsc.zeroAddress; //change to mainnet
-const wethAddress = bsc.wethAddress; //change to mainnet
+const zeroAddr = bscTestnet.zeroAddress; //change to mainnet
+const wethAddress = bscTestnet.wethAddress; //change to mainnet
 const wethDecimals = 18;
 const pairAbi = constants.pairAbi;
 const erc20Abi = constants.erc20Abi;

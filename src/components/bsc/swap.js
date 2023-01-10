@@ -5,16 +5,16 @@ import { bsc, constants, bscTestnet } from "../../config";
 // const signer = provider.getSigner();
 // const address = signer._address;
 
-const factoryAddress = bsc.factoryAddress; //Change to mainnet
+const factoryAddress = bscTestnet.factoryAddress; //Change to mainnet
 const factoryAbi = constants.factoryAbi;
 
-const routerAddress = bsc.pancakeRouterAddress; //Change to mainnet
+const routerAddress = bscTestnet.pancakeRouterAddress; //Change to mainnet
 const routerAbi = constants.routerAbi;
 
-const shibnobiRouterAddress = bsc.shibnobiRouter;
+const shibnobiRouterAddress = bscTestnet.shibnobiRouter;
 const shibRouterAbi = constants.shibRouterAbi;
 
-const zeroAddr = bsc.zeroAddress; //Change to mainnet
+const zeroAddr = bscTestnet.zeroAddress; //Change to mainnet
 
 // const factory = new ethers.Contract(factoryAddress, factoryAbi, signer);
 // const router = new ethers.Contract(routerAddress, routerAbi, signer);

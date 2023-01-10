@@ -35,8 +35,8 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 //importing media assets
 import down from "./assets/icons/down.svg";
 
-import { Coins } from "./coinList1"; //change to mainnet
-// import { Coins } from "./coinListTestnet";
+// import { Coins } from "./coinList1"; //change to mainnet
+import { Coins } from "./coinListTestnet";
 import Addliquidity from "./Addliquidity";
 import { useSelector } from "react-redux";
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -325,11 +325,11 @@ export default function Bsc({ provider, chain, topViewData }) {
   const bscRpcTestnet = "https://data-seed-prebsc-1-s3.binance.org:8545/";
   const bscRpcMainnet = "https://bsc-dataseed1.binance.org/";
 
-  const pancakeRouterv1Testnet = bsc.pancakeRouterAddress; //change to mainnet
+  const pancakeRouterv1Testnet = bscTestnet.pancakeRouterAddress; //change to mainnet
   // const pancakeRouterv1Testnet = MAINNET.pancakeRouterAddress;
   const routerAbi = constants.routerAbi;
 
-  const shibRouter = bsc.shibnobiRouter; //change to mainnet
+  const shibRouter = bscTestnet.shibnobiRouter; //change to mainnet
   const shibRouterAbi = constants.shibRouterAbi;
   const [usingFor, setusingFor] = useState("0");
 
@@ -513,7 +513,7 @@ export default function Bsc({ provider, chain, topViewData }) {
   const [addshowCreate, setAddshowCreate] = useState(false);
 
   const Ether = new Provider.StaticJsonRpcProvider(
-    bscRpcMainnet //change to mainnet
+    bscRpcTestnet //change to mainnet
   );
 
   // const provider = new Web3(
