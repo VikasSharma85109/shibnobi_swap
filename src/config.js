@@ -28,6 +28,16 @@ export const eth = {
   weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 };
 
+export const ethTestnet = {
+  factoryAddress: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+  uniswapRouterAddress: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D", //v2
+  zeroAddress: "0x0000000000000000000000000000000000000000",
+  wethAddress: "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+  shibnobiFactory: "0x529a5E92cF644e2dd4cDD16a269C914C102B0eBf",
+  shibnobiRouter: "0x69f53DeB161040F0Bac64220db931dD01aE330Bd",
+  weth: "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+};
+
 export const constants = {
   erc20Abi: [
     {

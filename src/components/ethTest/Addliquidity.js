@@ -36,7 +36,7 @@ import { Avatar } from "antd";
 import axios from "axios";
 import { liquidity } from "../bsc/liquidity";
 import { Col, Row } from "antd";
-import { constants, eth } from "../../config";
+import { constants, eth, ethTestnet } from "../../config";
 import { onApprove } from "../bsc/approve";
 const { Text, Title } = Typography;
 function valuetext(value) {
@@ -270,7 +270,7 @@ Description:- this function used check ApproveRouter
           to.address,
           inputin,
           inputout,
-         currentRouterOfEth == "shibnobi"  ? eth.shibnobiRouter : eth.uniswapRouterAddress
+         currentRouterOfEth == "shibnobi"  ? ethTestnet.shibnobiRouter : ethTestnet.uniswapRouterAddress
         );
       } catch (err) {
         console.error(err);
