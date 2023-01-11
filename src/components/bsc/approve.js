@@ -60,7 +60,6 @@ export const onApprove = async (tokenA, tokenB, amtA, amtB, UNISWAP_ROUTER) => {
         Amount = AmountA;
       }
 
-      console.log(tokenAddress, Amount);
       let ercContract = new web3.eth.Contract(ERC20, tokenAddress);
 
       await ercContract.methods
@@ -89,7 +88,26 @@ export const onApprove = async (tokenA, tokenB, amtA, amtB, UNISWAP_ROUTER) => {
         .call({ from: userwalletaddresss })
         .then(async (allowance) => {
           if (allowance >= AmountA) {
-            liquidity(amtA, amtB, tokenA, tokenB, UNISWAP_ROUTER);
+            let ercContract = new web3.eth.Contract(ERC20, tokenB);
+            ercContract.methods
+              .allowance(userwalletaddresss, UNISWAP_ROUTER)
+              .call({ from: userwalletaddresss })
+              .then((allowance) => {
+                if (allowance >= AmountB) {
+                  liquidity(amtA, amtB, tokenA, tokenB, UNISWAP_ROUTER);
+                } else {
+                  ercContract.methods
+                    .approve(UNISWAP_ROUTER, AmountB)
+                    .send({ from: userwalletaddresss })
+                    .then((res) => {
+                      liquidity(amtA, amtB, tokenA, tokenB, UNISWAP_ROUTER);
+                    })
+                    .catch();
+                }
+              })
+              .catch();
+
+            // liquidity(amtA, amtB, tokenA, tokenB, UNISWAP_ROUTER);
           } else {
             ercContract.methods
               .approve(UNISWAP_ROUTER, AmountA)

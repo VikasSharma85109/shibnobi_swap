@@ -219,15 +219,15 @@ const Addliquidity = ({
       try {
         setLoading(true);
 
-        onApprove(
+         onApprove(
           from.address,
           to.address,
           inputin,
           inputout,
 
           currentRouterOfBsc == "shibnobi"
-            ? bsc.shibnobiRouter
-            : bsc.pancakeRouterAddress   //change to mainnet
+            ? bscTestnet.shibnobiRouter
+            : bscTestnet.pancakeRouterAddress   //change to mainnet
         );
 
         // liquidity(
