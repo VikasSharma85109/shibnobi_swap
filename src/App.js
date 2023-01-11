@@ -88,7 +88,7 @@ const bscTestnet = {
 };
 
 const { chains, provider } = configureChains(
-  [bscTestnet, chain.mainnet],
+  [bscTestnet, chain.goerli],
   [
     infuraProvider({ apiKey: "dab1364f1304408b9d44f36d0773cf0a" }),
     jsonRpcProvider({

@@ -2,7 +2,7 @@ import { Fragment, useState, useEffect, useMemo } from "react";
 import React from "react";
 import { GearFill } from "react-bootstrap-icons";
 import "./style.css";
-import { eth, constants } from "../../config";
+import { eth, constants, ethTestnet } from "../../config";
 import { useDispatch } from "react-redux";
 import { BrowserView } from "react-device-detect";
 import { Avatar, Space } from "antd";
@@ -393,12 +393,14 @@ Description:-this method used show and hide model
 
   const ethMainnet =
     "https://mainnet.infura.io/v3/dab1364f1304408b9d44f36d0773cf0a";
+
+  const ethRpcTestnet = "https://goerli.infura.io/v3/dab1364f1304408b9d44f36d0773cf0a";
   const bscRpcTestnet = "https://data-seed-prebsc-1-s3.binance.org:8545/";
 
   const pancakeRouterv1 = "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F";
   const pancakeRouterv2 = "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506";
 
-  const pancakeRouterv1Testnet = eth.uniswapRouterAddress;
+  const pancakeRouterv1Testnet = ethTestnet.uniswapRouterAddress;  //change to mainnet
   const routerAbi = constants.routerAbi;
 
   const dispatch = useDispatch();
@@ -719,7 +721,7 @@ Description:-this method used render address Data , priceUsd
   const mode = useSelector((state) => state.counter.mode);
 
   const Ether = new Provider.StaticJsonRpcProvider(
-    ethMainnet //change to mainnet
+    ethRpcTestnet //change to mainnet
   );
 
   async function constructor() {
@@ -816,7 +818,7 @@ Description:-this method used popup open and close
       );
 
       var Tost = new Token(
-        ChainId.MAINNET, //change to mainnet
+        ChainId.GÖRLI, //change to mainnet
         InterCheck,
         18,
         getCoinDataInRedux[index].symbol,
@@ -824,7 +826,7 @@ Description:-this method used popup open and close
       );
 
       var Inter = new Token(
-        ChainId.MAINNET, //change to mainnet
+        ChainId.GÖRLI, //change to mainnet
         StartCheck,
         18,
         "BUSD",
@@ -851,7 +853,7 @@ Description:-this method used popup open and close
         );
 
         const TokenB = new Token(
-          ChainId.MAINNET, //change to mainnet
+          ChainId.GÖRLI, //change to mainnet
           EndCheck,
           18,
           "USDT",
@@ -859,7 +861,7 @@ Description:-this method used popup open and close
         );
 
         const TokenA = new Token(
-          ChainId.MAINNET, //change to mainnet
+          ChainId.GÖRLI, //change to mainnet
           InterCheck,
           18,
           getCoinDataInRedux[index].symbol,
@@ -1152,7 +1154,7 @@ Description:-this method used popup open and close
       );
 
       var Tost = new Token(
-        ChainId.MAINNET, //change to mainnet
+        ChainId.GÖRLI, //change to mainnet
         InterCheck,
         18,
         getCoinDataInRedux[index].symbol,
@@ -1160,7 +1162,7 @@ Description:-this method used popup open and close
       );
 
       var Inter = new Token(
-        ChainId.MAINNET, //change to mainnet
+        ChainId.GÖRLI, //change to mainnet
         StartCheck,
         18,
         "BUSD",
@@ -1188,7 +1190,7 @@ Description:-this method used popup open and close
         );
 
         const TokenB = new Token(
-          ChainId.MAINNET, //change to mainnet
+          ChainId.GÖRLI, //change to mainnet
           EndCheck,
           18,
           "USDT",
@@ -1196,7 +1198,7 @@ Description:-this method used popup open and close
         );
 
         const TokenA = new Token(
-          ChainId.MAINNET, //change to mainnet
+          ChainId.GÖRLI, //change to mainnet
           InterCheck,
           18,
           getCoinDataInRedux[index].symbol,

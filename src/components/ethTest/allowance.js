@@ -1,5 +1,5 @@
 import { ethers } from "ethers";
-import { constants, eth } from "../../config";
+import { constants, eth, ethTestnet } from "../../config";
 
 const provider = new ethers.providers.InfuraProvider(
   "homestead",
@@ -10,10 +10,10 @@ const provider = new ethers.providers.InfuraProvider(
 
 // const address = signer.getAddress();
 
-const factoryAddress = eth.factoryAddress; // change to mainnet
-const routerAddress = eth.uniswapRouterAddress; // change to mainnet
+const factoryAddress = ethTestnet.factoryAddress; // change to mainnet
+const routerAddress = ethTestnet.uniswapRouterAddress; // change to mainnet
 
-const shibRouter = eth.shibnobiRouterAddress;
+const shibRouter = ethTestnet.shibnobiRouterAddress;
 
 const erc20Abi = constants.erc20Abi;
 const pairAbi = constants.pairAbi;

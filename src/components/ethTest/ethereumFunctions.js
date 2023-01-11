@@ -1,9 +1,9 @@
 import { Contract, ethers } from "ethers";
-import { eth, constants, bsc } from "../../config";
+import { eth, constants, bsc, ethTestnet } from "../../config";
 
-const ROUTER = eth.pancakeRouterAddress;
+const ROUTER = ethTestnet.pancakeRouterAddress;
 const ERC20 = constants.erc20Abi;
-const FACTORY = eth.factoryAddress;
+const FACTORY = ethTestnet.factoryAddress;
 
 export function getProvider(provider) {
   return new ethers.providers.Web3Provider(provider);

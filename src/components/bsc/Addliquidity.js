@@ -226,8 +226,8 @@ const Addliquidity = ({
           inputout,
 
           currentRouterOfBsc == "shibnobi"
-            ? bsc.shibnobiRouter
-            : bsc.pancakeRouterAddress   //change to mainnet
+            ? bscTestnet.shibnobiRouter
+            : bscTestnet.pancakeRouterAddress   //change to mainnet
         );
 
         // liquidity(
